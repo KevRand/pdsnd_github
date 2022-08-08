@@ -26,17 +26,17 @@ def get_filters():
             city=city.title()
             break
         else:
-            print("Sorry, that was an invalid input")
+            print("Sorry, that wasn't one of the choices")
     
     # Gets user input for month and handles invalid inputs
-    month=""
+   month=""
     while True:
         month= (input("\n Now, would you like to filter by month? \n If so, please type the full month from January-June \n or type 'All' to look at data from every month \n"))
         if month.title() in ["January" , "February" , "March" , "April" , "May" , "June" , "All"]:
             month=month.title()
             break
         else:
-            print("Sorry, that was an invalid input")
+            print("Sorry, that wasn't one of the choices")
    
     # Gets user input for day and handles invalid inputs
     day=""
