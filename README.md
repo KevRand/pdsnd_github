@@ -20,7 +20,10 @@ the first change to my .py file updated the error messages that are displayed if
 the second change to my .py file updated 'New York' to 'New York City'
 
 ### Third change
-the third changes shortens the weekday names from the full name to a 3 letter abbreviation ex: Sunday -> Sun
+the third changes shortens the weekday names from the full name to a 3 letter abbreviation ex: Sunday - Sun
 
 ### Additional changes 1
-I am adding this message as my first addition change to my documentation branch
+I am adding this message as my first additional change to my documentation branch
+
+### Additional changes 2
+I fixed typos within this document, on "Additional changes 1" & Third change'
