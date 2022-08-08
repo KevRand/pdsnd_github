@@ -21,8 +21,8 @@ def get_filters():
     #Gets user input for city & handles invalid inputs
     city=""
     while True:
-        city =(input("\n What city would you like to search by? Please enter one of the following cities - New York, Washington or Chicago \n"))
-        if city.title() in ["New York" , "Washington" , "Chicago"]:
+        city =(input("\n What city would you like to search by? Please enter one of the following cities - New York City, Washington or Chicago \n"))
+        if city.title() in ["New York City" , "Washington" , "Chicago"]:
             city=city.title()
             break
         else:

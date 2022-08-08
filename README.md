@@ -13,5 +13,8 @@ broken down by month and day (if the user chooses to filter data)
 ### Files used
 the file I used is bikeshare.py
 
-### first change
-the first change to my file updated the error messages that are displayed if user entered wrong city names or month names
+### First change
+the first change to my .py file updated the error messages that are displayed if user entered wrong city names or month names
+
+### Second change 
+the second change to my .py file updated 'New York' to 'New York City'
