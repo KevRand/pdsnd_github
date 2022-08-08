@@ -41,8 +41,8 @@ def get_filters():
     # Gets user input for day and handles invalid inputs
     day=""
     while True:
-       day= (input(" \n Finally, would you like to filter by day? \n If so, please type the full day \n or type 'All' to look at data from every day \n"))
-       if day.title() in ["Sunday" , "Monday" , "Tuesday" , "Wednesday" , "Thursday" , "Friday" , "Saturday" , "All"]:
+       day= (input(" \n Finally, would you like to filter by day? \n If so, please type the first 3 letters of the day \n or type 'All' to look at data from every day \n"))
+       if day.title() in ["Sun" , "Mon" , "Tue" , "Wed" , "Thu" , "Fri" , "Sat" , "All"]:
            day=day.title()
            break
        else:
