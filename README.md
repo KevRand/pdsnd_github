@@ -21,3 +21,6 @@ the second change to my .py file updated 'New York' to 'New York City'
 
 ### Third change
 the third changes shortens the weekday names from the full name to a 3 letter abbreviation ex: Sunday -> Sun
+
+### Additional changes 1
+I am adding this message as my first addition change to my documentation branch
