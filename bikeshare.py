@@ -235,8 +235,10 @@ def main();
         restart = input('\nWould you like to restart? Enter yes or no.\n')
         if restart.lower() == 'yes':
             continue
-        else:
+        elif restart.lower() =='no':
             print("Ok, Good Bye")
             break
+        else:
+            print("Sorry, that was an invalid inupt, please type yes or no")
 if __name__ == "__main__":
     main()        
