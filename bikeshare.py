@@ -208,7 +208,7 @@ def user_stats(df):
         
     # Calculates and displays earliest, most recent & most common year of birth
     if city == "Washington":
-        print("Birth year data not available")
+        print("Birth year data unavailablee")
     else:
         rec_birth= int(df["Birth Year"].max())
         earl_birth= int(df["Birth Year"].min())
@@ -235,8 +235,10 @@ def main();
         restart = input('\nWould you like to restart? Enter yes or no.\n')
         if restart.lower() == 'yes':
             continue
-        else:
+        elif restart.lower() =='no':
             print("Ok, Good Bye")
             break
+        else:
+            print("Sorry, that was an invalid inupt, please type yes or no")
 if __name__ == "__main__":
     main()        
