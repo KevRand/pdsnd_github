@@ -208,7 +208,7 @@ def user_stats(df):
         
     # Calculates and displays earliest, most recent & most common year of birth
     if city == "Washington":
-        print("Birth year data not available")
+        print("Birth year data unavailablee")
     else:
         rec_birth= int(df["Birth Year"].max())
         earl_birth= int(df["Birth Year"].min())
